@@ -1,0 +1,16 @@
+C:\Users\jucar\source\repos\MVC\Controlador\bin\Debug\net8.0-windows\Controlador.deps.json
+C:\Users\jucar\source\repos\MVC\Controlador\bin\Debug\net8.0-windows\Controlador.dll
+C:\Users\jucar\source\repos\MVC\Controlador\bin\Debug\net8.0-windows\Controlador.pdb
+C:\Users\jucar\source\repos\MVC\Controlador\bin\Debug\net8.0-windows\Modelo.dll
+C:\Users\jucar\source\repos\MVC\Controlador\bin\Debug\net8.0-windows\Modelo.pdb
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controlador.csproj.AssemblyReference.cache
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controlador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controlador.AssemblyInfoInputs.cache
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controlador.AssemblyInfo.cs
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controlador.sourcelink.json
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controla.6B62700F.Up2Date
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controlador.dll
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\refint\Controlador.dll
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\Controlador.pdb
+C:\Users\jucar\source\repos\MVC\Controlador\obj\Debug\net8.0-windows\ref\Controlador.dll

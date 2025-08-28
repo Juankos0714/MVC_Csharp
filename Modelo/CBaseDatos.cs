@@ -20,8 +20,9 @@ namespace Modelo
             return respuesta;
         }
         public List<CLibro> listaLibrosActual()
-        {List<CLibro> cLibros respuesta = libroLista;
-
+        {
+            List<CLibro> respuesta = libroLista;
+            return respuesta;
         }
          
             
