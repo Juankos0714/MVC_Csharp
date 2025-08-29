@@ -7,40 +7,32 @@
       "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B7DF983-47D6-48B8-B893-7380E506E6FD}|Controlador\\Controlador.csproj|c:\\users\\jucar\\source\\repos\\mvc\\controlador\\controlador.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4B7DF983-47D6-48B8-B893-7380E506E6FD}|Controlador\\Controlador.csproj|solutionrelative:controlador\\controlador.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7DF983-47D6-48B8-B893-7380E506E6FD}|Controlador\\Controlador.csproj|c:\\users\\jucar\\source\\repos\\mvc\\controlador\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7DF983-47D6-48B8-B893-7380E506E6FD}|Controlador\\Controlador.csproj|solutionrelative:controlador\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|c:\\users\\jucar\\source\\repos\\mvc\\modelo\\cbasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|solutionrelative:modelo\\cbasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|c:\\users\\jucar\\source\\repos\\mvc\\modelo\\entities\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entities\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|c:\\users\\jucar\\source\\repos\\mvc\\modelo\\modelo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|solutionrelative:modelo\\modelo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B7DF983-47D6-48B8-B893-7380E506E6FD}|Controlador\\Controlador.csproj|c:\\users\\jucar\\source\\repos\\mvc\\controlador\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B7DF983-47D6-48B8-B893-7380E506E6FD}|Controlador\\Controlador.csproj|solutionrelative:controlador\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|c:\\users\\jucar\\source\\repos\\mvc\\modelo\\entities\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entities\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +58,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "CBaseDatos.cs",
+              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\CBaseDatos.cs",
+              "RelativeDocumentMoniker": "Modelo\\CBaseDatos.cs",
+              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\CBaseDatos.cs*",
+              "RelativeToolTip": "Modelo\\CBaseDatos.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwGoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T23:13:31.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.cs",
+              "RelativeDocumentMoniker": "MVC\\Main.cs",
+              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.cs*",
+              "RelativeToolTip": "MVC\\Main.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwBIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T23:10:39.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Controlador\\MainController.cs",
+              "RelativeDocumentMoniker": "Controlador\\MainController.cs",
+              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Controlador\\MainController.cs*",
+              "RelativeToolTip": "Controlador\\MainController.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T23:08:31.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MVC.csproj",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\MVC.csproj",
               "RelativeDocumentMoniker": "MVC\\MVC.csproj",
@@ -75,32 +106,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-08-22T02:26:25.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Modelo.csproj",
-              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\Modelo.csproj",
-              "RelativeDocumentMoniker": "Modelo\\Modelo.csproj",
-              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\Modelo.csproj",
-              "RelativeToolTip": "Modelo\\Modelo.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T02:26:20.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Controlador.csproj",
-              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Controlador\\Controlador.csproj",
-              "RelativeDocumentMoniker": "Controlador\\Controlador.csproj",
-              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Controlador\\Controlador.csproj",
-              "RelativeToolTip": "Controlador\\Controlador.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T02:23:25.966Z",
               "EditorCaption": ""
             },
             {
@@ -118,33 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CBaseDatos.cs",
-              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\CBaseDatos.cs",
-              "RelativeDocumentMoniker": "Modelo\\CBaseDatos.cs",
-              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\CBaseDatos.cs",
-              "RelativeToolTip": "Modelo\\CBaseDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T23:13:31.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.cs",
-              "RelativeDocumentMoniker": "MVC\\Main.cs",
-              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.cs*",
-              "RelativeToolTip": "MVC\\Main.cs*",
-              "ViewState": "AgIAAAEAAAAAAAAAAAApwCUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T23:10:39.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Main.resx",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.resx",
               "RelativeDocumentMoniker": "MVC\\Main.resx",
@@ -156,28 +135,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.Designer.cs",
               "RelativeDocumentMoniker": "MVC\\Main.Designer.cs",
               "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.Designer.cs*",
               "RelativeToolTip": "MVC\\Main.Designer.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwJoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T02:22:27.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainController.cs",
-              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Controlador\\MainController.cs",
-              "RelativeDocumentMoniker": "Controlador\\MainController.cs",
-              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Controlador\\MainController.cs",
-              "RelativeToolTip": "Controlador\\MainController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T23:08:31.02Z",
               "EditorCaption": ""
             }
           ]

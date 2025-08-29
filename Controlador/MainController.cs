@@ -16,6 +16,18 @@ namespace Controlador
             respuesta = baseDatos.GuardarLibros(nombre, editorial, precio); 
             return respuesta;
         }
+        public string ActualizarLibro(int id,string nombre, string editorial, int precio)
+        {
+            string respuesta = "";
+            respuesta = baseDatos.ActualizarLibro(id,nombre, editorial, precio);
+            return respuesta;
+        }
+        public string EliminarLibros(int id)
+        {
+            string respuesta = "";
+            respuesta = baseDatos.EliminarLibro(id);
+            return respuesta;
+        }
         public List<CLibro> listarLibros()
         {
             List<CLibro> lista;

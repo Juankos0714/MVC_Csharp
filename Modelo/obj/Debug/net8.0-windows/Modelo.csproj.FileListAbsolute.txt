@@ -10,3 +10,4 @@ C:\Users\jucar\source\repos\MVC\Modelo\obj\Debug\net8.0-windows\Modelo.dll
 C:\Users\jucar\source\repos\MVC\Modelo\obj\Debug\net8.0-windows\refint\Modelo.dll
 C:\Users\jucar\source\repos\MVC\Modelo\obj\Debug\net8.0-windows\Modelo.pdb
 C:\Users\jucar\source\repos\MVC\Modelo\obj\Debug\net8.0-windows\ref\Modelo.dll
+C:\Users\jucar\source\repos\MVC\Modelo\obj\Debug\net8.0-windows\Modelo.csproj.AssemblyReference.cache

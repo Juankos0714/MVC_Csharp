@@ -114,6 +114,7 @@
             btnActualizar.TabIndex = 8;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = false;
+            btnActualizar.Click += btnActualizar_Click;
             // 
             // btnEliminar
             // 
@@ -124,6 +125,7 @@
             btnEliminar.TabIndex = 9;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = false;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnLimpiar
             // 
@@ -134,6 +136,7 @@
             btnLimpiar.TabIndex = 10;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = false;
+            btnLimpiar.Click += btnLimpiar_Click_1;
             // 
             // dgvLibros
             // 
@@ -148,7 +151,7 @@
             dgvLibros.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvLibros.Size = new Size(700, 200);
             dgvLibros.TabIndex = 11;
-            dgvLibros.CellContentClick += dgvLibros_CellContentClick;
+            dgvLibros.CellContentClick += dgvLibros_CellClick;
             // 
             // ID
             // 
