@@ -16,14 +16,15 @@ namespace Modelo
         {
             builder = new MySqlConnectionStringBuilder
             {
-                Server = "adso283",
+                Server = "localhost",        
+                Port = 3306,                
                 Database = "BibliotecaSena",
                 UserID = "root",
                 Password = "carlosmanuel",
-                SslMode = MySqlSslMode.Required,
+                SslMode = MySqlSslMode.None,
             };
             cadenaConexion = builder.ConnectionString;
-        }        
+        }
         public MySqlConnection ObtenerConexion()
         {
             return new MySqlConnection(cadenaConexion);
@@ -83,15 +84,15 @@ namespace Modelo
                 var conn = new MySqlConnection(cadenaConexion);
                 conn.Open();
                 var comando = conn.CreateCommand();
-                    
+
                 comando.CommandText = consulta;
-                        if (parametros != null)
-                        {
-                            comando.Parameters.AddRange(parametros);
-                        }
-                        return  comando.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
-                    
-                
+                if (parametros != null)
+                {
+                    comando.Parameters.AddRange(parametros);
+                }
+                return comando.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+
+
             }
             catch (Exception ex)
             {

@@ -1,4 +1,3 @@
-
 using Modelo.Entities;
 using MySql.Data.MySqlClient;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -34,22 +33,22 @@ namespace Modelo
                 };
                 int filasAfectadas = conexion.EjecutarComando(consulta, parametros);
                 if (filasAfectadas > 0)
-                    return "Libro guarado";
+                    return "Libro guardado";
                 else
-                    return "No save";
+                    return "No se pudo guardar el libro";
             }
             catch (Exception ex)
             {
-                return "Error al guardar" + ex.Message;
-            
+                return "Error al guardar: " + ex.Message;
+
             }
 
         }
-        public string ActualizarLibro(int id, string nombre,string editorial, int precio)
+        public string ActualizarLibro(int id, string nombre, string editorial, int precio)
         {
             try
             {
-                string consulta = "Upate libro set nombre = @nombre, editorial = @editorial, precio = @precio WHERE id = @id";
+                string consulta = "UPDATE libro SET nombre = @nombre, editorial = @editorial, precio = @precio WHERE id = @id";
                 MySqlParameter[] parametros = {
                     new MySqlParameter("@id",id),
                     new MySqlParameter("@nombre",nombre),
@@ -60,11 +59,11 @@ namespace Modelo
                 if (filasAfectadas > 0)
                     return "Libro actualizado";
                 else
-                    return "No save";
+                    return "No se pudo actualizar el libro";
             }
             catch (Exception ex)
             {
-                return "Error al guardar" + ex.Message;
+                return "Error al actualizar: " + ex.Message;
 
             }
         }
@@ -72,24 +71,23 @@ namespace Modelo
         {
             try
             {
-                string consulta = "Delete from libro where id =@id";
+                string consulta = "DELETE FROM libro WHERE id = @id";
                 MySqlParameter[] parametros = {
                     new MySqlParameter("@id",id),
 
                 };
                 int filasAfectadas = conexion.EjecutarComando(consulta, parametros);
                 if (filasAfectadas > 0)
-                    return "Libro actualizado";
+                    return "Libro eliminado";
                 else
-                    return "No save";
+                    return "No se pudo eliminar el libro";
             }
             catch (Exception ex)
             {
-                return "Error al guardar" + ex.Message;
-
+                return "Error al eliminar: " + ex.Message;
             }
         }
-        
+
         public List<CLibro> listaLibrosActual()
         {
             List<CLibro> listaLibros = new List<CLibro>();
@@ -97,7 +95,7 @@ namespace Modelo
 
             try
             {
-                string consulta = "select id, nombre, editorial,precio from libro order by id";
+                string consulta = "SELECT id, nombre, editorial, precio FROM libro ORDER BY id";
                 reader = conexion.EjecutarConsulta(consulta);
                 while (reader.Read())
                 {
@@ -114,17 +112,15 @@ namespace Modelo
             }
             catch (Exception ex)
             {
-                throw new Exception("Error al obtner lista de libros " + ex.Message);
-            }finally
+                throw new Exception("Error al obtener la lista de libros: " + ex.Message);
+            }
+            finally
             {
-                if(reader != null && !reader.IsClosed)
+                if (reader != null && !reader.IsClosed)
                 {
                     reader.Close();
                 }
             }
         }
-         
-            
     }
-
 }

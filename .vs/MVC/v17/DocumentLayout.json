@@ -11,8 +11,20 @@
       "RelativeMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|solutionrelative:modelo\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|C:\\Users\\jucar\\source\\repos\\MVC\\mvc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|c:\\users\\jucar\\source\\repos\\mvc\\modelo\\entities\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entities\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|c:\\users\\jucar\\source\\repos\\mvc\\modelo\\cbasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{4B7DF983-47D6-48B8-B893-7380E506E6FD}|Controlador\\Controlador.csproj|solutionrelative:controlador\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|solutionrelative:mvc\\mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|c:\\users\\jucar\\source\\repos\\mvc\\modelo\\entities\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE549A32-EE69-4860-BF6A-87731D6A9B9E}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entities\\clibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD370982-E533-4EE9-9C37-3B28EBD79799}|MVC\\MVC.csproj|c:\\users\\jucar\\source\\repos\\mvc\\mvc\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
@@ -46,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Program.cs",
+              "RelativeDocumentMoniker": "MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Program.cs",
+              "RelativeToolTip": "MVC\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T03:26:49.787Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -56,7 +73,7 @@
               "RelativeDocumentMoniker": "Modelo\\Conexion.cs",
               "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\Conexion.cs",
               "RelativeToolTip": "Modelo\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwBkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T00:54:21.896Z",
               "EditorCaption": ""
@@ -75,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CBaseDatos.cs",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\CBaseDatos.cs",
               "RelativeDocumentMoniker": "Modelo\\CBaseDatos.cs",
               "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\CBaseDatos.cs",
               "RelativeToolTip": "Modelo\\CBaseDatos.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAFkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwA8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T23:13:31.11Z",
               "EditorCaption": ""
@@ -94,14 +111,14 @@
               "RelativeDocumentMoniker": "MVC\\Main.cs",
               "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.cs",
               "RelativeToolTip": "MVC\\Main.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAAwLcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T23:10:39.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Controlador\\MainController.cs",
               "RelativeDocumentMoniker": "Controlador\\MainController.cs",
@@ -109,12 +126,11 @@
               "RelativeToolTip": "Controlador\\MainController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T23:08:31.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T23:08:31.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MVC.csproj",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\MVC.csproj",
               "RelativeDocumentMoniker": "MVC\\MVC.csproj",
@@ -122,25 +138,24 @@
               "RelativeToolTip": "MVC\\MVC.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T02:26:25.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T02:26:25.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "CLibro.cs",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\Entities\\CLibro.cs",
               "RelativeDocumentMoniker": "Modelo\\Entities\\CLibro.cs",
               "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\Modelo\\Entities\\CLibro.cs",
               "RelativeToolTip": "Modelo\\Entities\\CLibro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T00:02:53.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Main.resx",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.resx",
               "RelativeDocumentMoniker": "MVC\\Main.resx",
@@ -152,13 +167,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.Designer.cs",
               "RelativeDocumentMoniker": "MVC\\Main.Designer.cs",
               "ToolTip": "C:\\Users\\jucar\\source\\repos\\MVC\\MVC\\Main.Designer.cs",
               "RelativeToolTip": "MVC\\Main.Designer.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAAwJkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T02:22:27.9Z",
               "EditorCaption": ""

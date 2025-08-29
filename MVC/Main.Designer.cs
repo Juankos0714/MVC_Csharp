@@ -30,6 +30,7 @@
             btnLimpiar = new Button();
             dgvLibros = new DataGridView();
             ID = new DataGridViewTextBoxColumn();
+            Nombre = new DataGridViewTextBoxColumn(); 
             Editorial = new DataGridViewTextBoxColumn();
             Precio = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvLibros).BeginInit();
@@ -143,7 +144,7 @@
             dgvLibros.AllowUserToAddRows = false;
             dgvLibros.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvLibros.ColumnHeadersHeight = 34;
-            dgvLibros.Columns.AddRange(new DataGridViewColumn[] { ID, Editorial, Precio });
+            dgvLibros.Columns.AddRange(new DataGridViewColumn[] { ID, Nombre, Editorial, Precio }); 
             dgvLibros.Location = new Point(50, 300);
             dgvLibros.Name = "dgvLibros";
             dgvLibros.ReadOnly = true;
@@ -155,10 +156,17 @@
             // 
             // ID
             // 
-            ID.HeaderText = "Nombre";
+            ID.HeaderText = "ID"; 
             ID.MinimumWidth = 8;
             ID.Name = "ID";
             ID.ReadOnly = true;
+            //
+            // Nombre 
+            //
+            Nombre.HeaderText = "Nombre";
+            Nombre.MinimumWidth = 8;
+            Nombre.Name = "Nombre";
+            Nombre.ReadOnly = true;
             // 
             // Editorial
             // 
@@ -214,6 +222,7 @@
         private Button btnLimpiar;
         private DataGridView dgvLibros;
         private DataGridViewTextBoxColumn ID;
+        private DataGridViewTextBoxColumn Nombre; 
         private DataGridViewTextBoxColumn Editorial;
         private DataGridViewTextBoxColumn Precio;
     }

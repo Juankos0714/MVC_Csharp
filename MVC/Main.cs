@@ -1,4 +1,5 @@
 using Controlador;
+using Modelo.Entities;
 using System.Windows.Forms;
 namespace MVC
 {
@@ -23,7 +24,7 @@ namespace MVC
 
         private void Main_Load_1(object sender, EventArgs e)
         {
-
+            CargarLibros();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -32,66 +33,76 @@ namespace MVC
             {
                 try
                 {
-                    string nombre = tbNombre.Text;
-                    string editorial = tbEditorial.Text;
-                    int precio = Convert.ToInt32(tbPrecio.Text);
-                    string respuesta = oMainController.GuardarDatos(nombre, editorial, precio);
-                    MessageBox.Show(respuesta);
-                    var listaLibros = oMainController.listarLibros();
-                    dgvLibros.Rows.Clear();
+                    int precio = int.Parse(tbPrecio.Text);
 
-                    dgvLibros.Rows.Add(nombre, editorial, precio);
+                    string resultado = oMainController.GuardarDatos(tbNombre.Text.Trim(),
+                                                              tbEditorial.Text.Trim(),
+                                                              precio);
 
-                    if (respuesta.Contains("well"))
+                    MessageBox.Show(resultado, "Resultado", MessageBoxButtons.OK,
+                                  resultado.Contains("Error") ? MessageBoxIcon.Error : MessageBoxIcon.Information);
+
+                    if (!resultado.Contains("Error"))
                     {
                         LimpiarCampos();
+                        CargarLibros();
                     }
+                }
+                catch (FormatException)
+                {
+                    MessageBox.Show("El precio debe ser un número válido", "Error de validación",
+                                  MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error al agregar el libro " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error inesperado: " + ex.Message, "Error",
+                                  MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
-
-
-
         }
 
-
+        private void CargarLibros()
+        {
+            dgvLibros.Rows.Clear();
+            List<CLibro> libros = oMainController.listarLibros();
+            foreach (CLibro libro in libros)
+            {
+                int index = dgvLibros.Rows.Add(libro.ID, libro.nombre, libro.editorial, libro.precio);
+                dgvLibros.Rows[index].Tag = libro.ID; 
+            }
+        }
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             if (libroSeleccionadoID == -1)
             {
                 MessageBox.Show("Seleccione un libro");
+                return;
             }
+
             if (ValidarCampos())
             {
                 try
                 {
-                    string nombre = tbNombre.Text;
-                    string editorial = tbEditorial.Text;
+                    string nombre = tbNombre.Text.Trim();
+                    string editorial = tbEditorial.Text.Trim();
                     int precio = Convert.ToInt32(tbPrecio.Text);
+
                     string respuesta = oMainController.ActualizarLibro(libroSeleccionadoID, nombre, editorial, precio);
                     MessageBox.Show(respuesta);
-                    var listaLibros = oMainController.listarLibros();
-                    dgvLibros.Rows.Clear();
 
-                    dgvLibros.Rows.Add(nombre, editorial, precio);
-
-                    if (respuesta.Contains("well"))
+                    if (respuesta.Contains("actualizado"))
                     {
                         LimpiarCampos();
                         libroSeleccionadoID = -1;
+                        CargarLibros(); 
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error al agregar el libro " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error al actualizar el libro: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
         }
         private void dgvLibros_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -100,8 +111,8 @@ namespace MVC
                 try
                 {
                     DataGridViewRow fila = dgvLibros.Rows[e.RowIndex];
-                    libroSeleccionadoID = Convert.ToInt32(fila.Tag);
-                    tbNombre.Text = fila.Cells["ID"].Value.ToString();
+                    libroSeleccionadoID = Convert.ToInt32(fila.Cells["ID"].Value); 
+                    tbNombre.Text = fila.Cells["Nombre"].Value.ToString();
                     tbEditorial.Text = fila.Cells["Editorial"].Value.ToString();
                     tbPrecio.Text = fila.Cells["Precio"].Value.ToString();
                 }
@@ -139,7 +150,7 @@ namespace MVC
                 MessageBox.Show("falta un precio válido (número entero mayor a 0)");
                 tbPrecio.Focus();
                 return false;
-            }
+            } 
 
             return true;
         }
@@ -157,29 +168,33 @@ namespace MVC
             if (libroSeleccionadoID == -1)
             {
                 MessageBox.Show("Seleccione un libro");
+                return;
             }
-            DialogResult resultado = MessageBox.Show("Seguro?","COnfirmar seleccion",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
-            if (resultado==DialogResult.Yes)
+
+            DialogResult resultado = MessageBox.Show("¿Seguro que desea eliminar este libro?",
+                                                     "Confirmar eliminación",
+                                                     MessageBoxButtons.YesNo,
+                                                     MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.Yes)
             {
                 try
                 {
-
                     string respuesta = oMainController.EliminarLibros(libroSeleccionadoID);
                     MessageBox.Show(respuesta);
 
-
-                    if (respuesta.Contains("well"))
+                    if (respuesta.Contains("eliminado"))
                     {
                         LimpiarCampos();
                         libroSeleccionadoID = -1;
+                        CargarLibros(); 
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error al eliminar el libro " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error al eliminar el libro: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
         }
 
         private void btnLimpiar_Click_1(object sender, EventArgs e)
