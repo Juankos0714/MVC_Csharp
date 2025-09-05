@@ -1,7 +1,7 @@
 using Modelo.Entities;
 using MySql.Data.MySqlClient;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-
+//antes de ejecutar CREATE DATABASE BibliotecaSena
 namespace Modelo
 {
     public class CBaseDatos
