@@ -20,7 +20,7 @@ namespace Modelo
                 Port = 3306,                
                 Database = "BibliotecaSena",
                 UserID = "root",
-                Password = "carlosmanuel",
+                Password = "",
                 SslMode = MySqlSslMode.None,
             };
             cadenaConexion = builder.ConnectionString;
